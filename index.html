@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Faiz Reza Zaidi's Portfolio</title>
+    <!-- REMIXICON -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- <style>
+        img {
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+        }
+    </style> -->
+</head>
+
+<body>
+    <!--! === HEADER === --> 
+    <header class="header">
+        <nav class="navbar container">
+            <a href="./index.html" class="navbar__logo">
+                <!--! === <img src="./assets/images/logo.svg" alt="" class="navbar__logo-image"> === -->
+                <h3 style="font-size: 2.5rem; color: var(--light-clr-3); font-family: Bebas Neue; line-height: 1; border-bottom: 1px var(--light-clr-3) double;">FZ</h3>
+            </a>
+            <div class="navbar__menu">
+                <ul class="navbar__list">
+                    <li class="navbar__list-item">
+                        <a href="#home" class="navbar__list-link">Home</a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="#portfolio" class="navbar__list-link">My Works</a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="#aboutme" class="navbar__list-link">About me</a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="#skills" class="navbar__list-link">Skills</a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="#blog" class="navbar__list-link">Blog</a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="https://www.craft.do/s/j66QmlSsJSkFne" class="navbar__list-link">2020, in a Nutshell</a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="https://www.craft.do/s/nxvlAUZgOEZ0DD" class="navbar__list-link">2021, in a Nutshell</a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="https://www.craft.do/s/6eexdMq7YNlQhm" class="navbar__list-link">2022, in a Nutshell</a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="#" class="navbar__list-link"></a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="#" class="navbar__list-link">Resume</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- THEME CHANGE -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+            <div class="navbar__btn-group">
+                <button type="button" class="btn btn--action" id="menu-toggler">
+                    <svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.3333 0.999999L0.999918 1" stroke="var(--light-clr-3)" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M17.3333 6.83333L0.999916 6.83333" stroke="var(--light-clr-3)" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M10.3333 12.6667L0.999918 12.6667" stroke="var(--light-clr-3)" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!--! === MAIN === -->
+    <main>
+        <!--! === SHOWCASE === -->
+        <section class="showcase" id="home">
+            <div class="showcase__container container">
+                <h1 class="showcase__title title tittle--main">Hi, I'm Faiz; a student-cum-creator.</h1>
+                <picture class="showcase__image">
+                    <source media="(min-width: 768px)" srcset="./assets/images/showcase_image_lg.PNG">
+                    <img src="./assets/images/showcase_image_sm.PNG" alt="">
+                </picture>
+            </div>
+        </section>
+        <!--! === PORTFOLIO === -->
+        <section class="portfolio" id="portfolio">
+            <div class="portfolio__container container">
+                <div class="porfolio__metadata section-metadata">
+                    <h2 class="title">My Works</h2>
+                    <p class="section-metadata__description">All things Creative.</p>
+                </div>
+                <div class="swiper myswiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="assets/portfolio/p_1.jpg" alt="">
+                            <p class="portfolio-metadata__description" style="color: #222;"> CHARCOAL_2020</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/portfolio/p_2.jpg" alt="">
+                            <p class="portfolio-metadata__description" style="color: #222;"> PS_2021</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/portfolio/p_3.jpg" alt="">
+                            <p class="portfolio-metadata__description" style="color: #222;"> GRAPHITE_2021</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/portfolio/p_4.jpg" alt="">
+                            <p class="portfolio-metadata__description" style="color: #f2f2f2;"> PHOTOG_2020</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/portfolio/p_5.jpg" alt="">
+                            <p class="portfolio-metadata__description" style="color: #222;"> CHARCOAL_2021</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/portfolio/p_6.jpg" alt="">
+                            <p class="portfolio-metadata__description" style="color: #f2f2f2;"> PS_2021</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/portfolio/p_7.jpg" alt="">
+                            <p class="portfolio-metadata__description" style="color: #222;"> CHARCOAL_2021</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/portfolio/p_8.jpg" alt="">
+                            <p class="portfolio-metadata__description" style="color: #f2f2f2;"> PHOTOG_2022</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/portfolio/p_9.jpg" alt="">
+                            <p class="portfolio-metadata__description" style="color: #f2f2f2;"> CHARCOAL_2020</p>
+                        </div>
+                    </div>
+
+                    <!-- Add Arrows-->
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- Add Pagination-->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!--! === ABOUT === -->
+        <section class="about" id="aboutme">
+            <div class="about__container container">
+                <div class="about__information">
+                    <h2 class="about__information-title title">About Faiz Zaidi</h2>
+                    <p class="about__information-description">Faiz is an IIT aspirant and amateur artist who’s work flirts with both 
+                        sketches and words. When not behind a desk, he’s an avid reader and athlete.</p>
+                    <p class="about__information-description">As of 2022, he's a second year student at FIITJEE Junior College, Hyd. 
+                        Currently studing PCM, but also with a bit of coding and all things creative.</p>
+                        <a href="aboutme.html" class="btn btn--text btn-green">Learn more</a>
+                </div>
+                <div class="about__images">
+                    <img src="./assets/images/about_image_top.JPG" alt="" 
+                         class="about__images-image about__images-image--top">
+                    <img src="./assets/images/about_image_bottom.jpg" alt="" 
+                         class="about__images-image about__images-image--bottom">
+                </div>
+            </div>
+        </section>
+        <!--! === SKILLS === -->
+        <section class="skills" id="skills">
+            <div class="skills__container container">
+                <div class="skills__metadata section-metadata">
+                    <h2 class="title">Skills</h2>
+                    <p class="section-metadata__description">I'm good at these things.</p>
+                </div>
+                <div class="skills__image-wrapper">
+                    <img src="./assets/images/skills.jpg" alt="">
+                </div>
+                <div class="skills__list">
+                    <div class="skills__list-divider">
+                        <article class="skills__list-item">
+                            <i class="ri-terminal-box-line skills__list-icon"></i>
+                            <h3 class="skills__list-title title">Languages</h3>
+                            <p class="skills__list-description">· &nbsp;Python</p>
+                            <p class="skills__list-description">· &nbsp;HTML/CSS</p>
+                            <p class="skills__list-description">· &nbsp;Latex</p>
+                        </article>
+                        <article class="skills__list-item">
+                            <i class="ri-paint-brush-line skills__list-icon"></i>
+                            <h3 class="skills__list-title title">Art Media</h3>
+                            <p class="skills__list-description">· &nbsp;Graphite & Charcoal</p>
+                            <p class="skills__list-description">· &nbsp;Calligraphy</p>
+                            <p class="skills__list-description">· &nbsp;Photography</p>
+                        </article>
+                    </div>
+                    <article class="skills__list-item">
+                            <i class="ri-tools-line skills__list-icon"></i>
+                            <h3 class="skills__list-title title">Tools</h3>
+                            <p class="skills__list-description">· &nbsp;Procreate</p>
+                            <p class="skills__list-description">· &nbsp;Autodesk Sketchbook</p>
+                            <p class="skills__list-description">· &nbsp;Git & GitHub</p>
+                            <p class="skills__list-description">· &nbsp;Adobe Lightroom</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--! === BLOG === -->
+        <section class="blog" id="blog">
+            <div class="blog__container container">
+                <div class="blog__metadata section-metadata">
+                    <h2 class="title">Latest of Blog</h2>
+                    <p class="blog__metadata-description section-metadata__description">My Words.</p>
+                    <a href="blog.html" class="btn btn--text btn-green">View all Posts</a>
+                </div>
+                <article class="Blog__post post--left">
+                    <a href="post_23Dec2021.html" style="text-decoration: none;"><picture class="Blog__post-image">
+                        <source media="(min-width: 450px)" srcset="./assets/posts/post_23Dec2021.jpeg">
+                        <img src="./assets/posts/post_23Dec2021_small.jpeg" alt="">
+                    </picture>
+                    <h3 class="Blog__post-title title">Forget the Noun, Do the Verb</h3></a>
+                    <p> 23 Dec 2021</p>
+                    <br>
+                    <p class="Blog__information-description">✅ In ‘before-times,’ we all had our life-anchoring routines. The pandemic changed all that...</p>
+                    <hr class="blog">
+                </article>
+                <article class="Blog__post post--right">
+                    <a href="post_29Nov2021.html" style="text-decoration: none;"><picture class="Blog__post-image">
+                        <source media="(min-width: 450px)" srcset="./assets/posts/post_29Nov2021.jpeg">
+                        <img src="./assets/posts/post_29Nov2021_small.jpeg" alt="">
+                    </picture>
+                    <h3 class="Blog__post-title title">The Underlying Impact</h3></a>
+                    <p> 29 Nov 2021</p>
+                    <br>
+                    <p class="Blog__information-description">👤 Grow awkward, fine... but grow apart? Him, the quiet one under the shadows beyond the...</p>
+                    <hr class="blog">
+                </article>
+            </div>
+        </section>
+    </main>
+    <!--! === FOOTER === -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <a href="#" class="footer__button">&nbsp; Resume &nbsp;</a>
+            <br>
+            <div class="footer__group">
+                <h2 class="footer__title title titttle--main">Syed Faiz Reza Zaidi's Portfolio</h2> 
+                <a href="mailto:sfrzaidi25@gmail.com" class="btn btn--text btn--transparent">Contact me</a>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <!-- <span class="footer__separator"></span> -->
+            <div class="footer__group">
+           <!-- <a href="./index.html" class="footer__logo">
+                <img src="./assets/images/logo.svg" alt="">
+                </a>
+                <p class="footer__description">Lorem ipsum
+                    dolor amet.</p> -->
+                <ul class="footer__list">
+                    <li class="footer__list-item">
+                        <a href="mailto:sfrzaidi25@gmail.com" class="footer__list-link">
+                            <i class="ri-mail-add-line"></i>
+                        </a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="https://github.com/thefuzz25" class="footer__list-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                    </li>
+                </ul>
+                <span class="footer__copyright">&copy; Faiz Zaidi 2022. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+    <!-- SWIPERJS -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
