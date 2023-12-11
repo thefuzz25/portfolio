@@ -152,6 +152,7 @@ body.light-theme{
 
 .title{
   font-family: var(--title-font);
+  font-weight: 100;
   color: var(--light-clr-3);
   letter-spacing: 1px;
   font-size: 3.6rem;
