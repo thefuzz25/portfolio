@@ -1,5 +1,6 @@
-- 👋 Hi, I’m thefuzz25
+- 👋 Hi, I’m Faiz Zaidi but go by 'The Fuzz'
 - 👀 I can't resist dabbling in anything new to me.
 - 🌱 So obvi I’m currently learning how to code (python, html, css, js – the whole package)
-- 🤟🏻 I’m looking forward to designing my personal portfolio website 
+- 🤟🏻 I’m looking forward to designing my personal portfolio website
+- 📓 Hoping to couple the website as a platform to publish my 'In a Nutshell' chronicles
 - 📫 How to reach me, mailto: sfrzaidi25@gmail.com
